@@ -1,7 +1,27 @@
-li a {
-	color: green;
+body {
+    font-family: 'Arial', sans-serif;
 }
 
-body {
-	background: white url("images/background.png") no-repeat;
+h1 {
+    color: #007bff;
+}
+.list-group-item:hover {
+    background-color: #f8f9fa;
+}
+a {
+    color: #007bff;
+}
+a:hover {
+    color: #0056b3;
+    text-decoration: underline;
+}
+
+.progress-bar {
+    font-size: 0.9rem;
+    color: white;
+}
+.list-group-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
