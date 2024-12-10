@@ -1,1 +1,20 @@
-**/__pycache__
+# Python compiled files
+*.pyc
+*.pyo
+__pycache__/
+
+# Django specific files
+*.log
+*.pot
+*.py[cod]
+*.sqlite3
+db.sqlite3
+
+# Virtual environment
+env/
+venv/
+
+# IDE specific files
+.idea/
+.vscode/
+
