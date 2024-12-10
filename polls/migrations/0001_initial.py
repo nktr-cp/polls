@@ -38,7 +38,7 @@ class Migration(migrations.Migration):
                         verbose_name="ID",
                     ),
                 ),
-                ("choice_test", models.CharField(max_length=200)),
+                ("choice_text", models.CharField(max_length=200)),
                 ("votes", models.IntegerField(default=0)),
                 (
                     "question",
